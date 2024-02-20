@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://wbnkqu82e64g"]
+
+[ext_resource type="Texture2D" uid="uid://byi0kcaextuy1" path="res://icon.svg" id="1_4ag0g"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mxdj2"]
+font_size = 35
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_elfsf"]
+font_size = 35
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_y1ppi"]
+font_size = 35
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[node name="LobbyListEntry" type="GridContainer"]
+visible = false
+offset_right = 1402.0
+offset_bottom = 128.0
+theme_override_constants/h_separation = 250
+columns = 4
+
+[node name="LobbyJoinButton" type="TextureButton" parent="."]
+layout_mode = 2
+focus_mode = 0
+texture_normal = ExtResource("1_4ag0g")
+metadata/lobby_id = -1
+
+[node name="LobbyName" type="Label" parent="."]
+layout_mode = 2
+text = "Sample Lobby Text"
+label_settings = SubResource("LabelSettings_mxdj2")
+horizontal_alignment = 1
+
+[node name="LobbyPing" type="Label" parent="."]
+layout_mode = 2
+text = "255"
+label_settings = SubResource("LabelSettings_elfsf")
+horizontal_alignment = 1
+
+[node name="LobbyPlayerCount" type="Label" parent="."]
+layout_mode = 2
+text = "0/0"
+label_settings = SubResource("LabelSettings_y1ppi")
+horizontal_alignment = 1

@@ -1,0 +1,5 @@
+res://scene/menu/menu.tscn
+res://scene/menu/background.gdshader
+res://global/global.gd
+res://scene/menu/menu.gd
+res://scene/menu/lobby_member_name.tscn

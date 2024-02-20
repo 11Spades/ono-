@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bvqlu2wccvdv4"]
+
+[node name="PlayerHandHBoxContainer" type="HBoxContainer"]
+offset_top = 950.0
+offset_right = 1920.0
+offset_bottom = 1170.0
+pivot_offset = Vector2(960, -410)
+size_flags_horizontal = 3
+theme_override_constants/separation = 120
+alignment = 1

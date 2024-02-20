@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://djcnm38p0iyhl"]
+
+[node name="FlippedCard" type="Control"]
+layout_mode = 3
+anchor_right = 0.052
+anchor_bottom = 0.148
+offset_right = 0.159996
+offset_bottom = 0.160004
+
+[node name="CardBorder" type="ColorRect" parent="."]
+layout_mode = 2
+offset_right = 100.0
+offset_bottom = 160.0
+
+[node name="CardBack" type="ColorRect" parent="."]
+layout_mode = 2
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 95.0
+offset_bottom = 155.0
+color = Color(0, 0, 0, 1)
